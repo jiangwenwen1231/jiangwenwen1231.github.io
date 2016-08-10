@@ -1,0 +1,145 @@
+# jemdoc: title{Wenwen Jiang}
+
+=  
+
+== Wenwen Jiang
+
+
+~~~
+{}{img_left}{images/myface.jpg}{myface}{220}{220}{}
+
+Hi! I am a graduating fifth-year graduate student working
+with Professor [http://www.eecs.berkeley.edu/~mlustig Michael (Miki)
+Lustig].
+
+My interest lie in computational imaging, computer vision and medical imaging.
+
+Here is my email: [jiangwenwen1231@berkeley.edu].
+And here is my [WenwenJiang-resume.pdf resume].
+~~~
+
+
+== Projects
+
+==== Motion Robust High Resolution Free-breathing Pulmonary MRI
+{{
+<figure align="center">
+  <video width="50%" loop >
+    <source src="videos/video4.mp4" type="video/mp4">
+      <object data="videos/video4.mp4" >
+	<embed width="50%" src="videos/video4.mp4">
+      </object>
+  </video>
+  <figcaption> High spatial resolution Pulmonary MRI </figcaption>
+</figure>
+}}
+
+==== Computational Photography
+
+{{
+<table style="width:100%">
+  <tr>
+    <td width="25%">
+      <figure>
+	<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj1/cs194-kj/">
+	  <img src="images/cp1.png" alt="cp1" width="100%">
+	  <figcaption>Recolor grayscale images</figcaption>
+	</a>
+      </figure>
+    </td>
+    <td width="25%">
+      <figure>
+	<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj2/cs194-ki/Li_Kun_proj2/">
+	  <img src="images/cp2.jpg" alt="cp2" width="100%">
+	  <figcaption>Building a Pinhole Camera</figcaption>
+	</a>
+      </figure>
+    </td>
+    <td width="25%">
+      <figure>
+	<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj3/cs194-mx/Wenwen_Jiang_Proj3/Wenwen_Jiang_proj3.html">
+	  <img src="images/cp3.png" alt="cp3" width="100%">
+	  <figcaption>Image blending</figcaption>
+	</a>
+      </figure>
+    </td>
+    <td width="25%">
+      <figure>
+	<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj4/cs194-kj/Wenwen_Jiang_Proj4.htm">
+	  <img src="images/cp4.png" alt="cp4" width="100%">
+	  <figcaption>Seam Carving</figcaption>
+	</a>
+      </figure>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%">
+      <figure>
+	<a href="[https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj5/cs194-kj/WenwenJiang_project5.htm">
+	  <img src="images/cp5.gif" alt="cp5" width="100%">
+	  <figcaption>Face Morphing</figcaption>
+	</a>
+      </figure>
+    </td>
+    <td width="25%">
+      <figure>
+	<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj6/cs194-kj/WenwenJiang_Project%206.htm">
+	  <img src="images/cp6.png" alt="cp6" width="100%">
+	  <figcaption>Lightfield Depth Refocusing</figcaption>
+	</a>
+      </figure>
+    </td>
+    <td width="25%">
+      <figure>
+	<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj7B/cs194-kj/WenwenJiang_Project7B.htm">
+	  <img src="images/cp7.png" alt="cp7" width="100%">
+	  <figcaption>Auto Panaroma Stitching</figcaption>
+	</a>
+      </figure>
+    </td>
+    <td width="25%">
+      <figure>
+	<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/projFinalUndergrad/cs194-kj/Final_project_WenwenJiang.htm">
+	  <img src="images/cp8.png" alt="cp8" width="100%">
+	  <figcaption>Tour into the Picture and Fake Miniatures</figcaption>
+	</a>
+      </figure>
+    </td>
+  </tr>
+</table>
+}}
+
+
+~~~
+{}{raw}
+<script>
+var videos = document.getElementsByTagName("video"),
+fraction = 0.9;
+function checkScroll() {
+
+    for(var i = 0; i < videos.length; i++) {
+
+        var video = videos[i];
+
+        var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
+            b = y + h, //bottom
+            visibleX, visibleY, visible;
+
+            visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+            visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+
+            visible = visibleX * visibleY / (w * h);
+
+            if (visible > fraction) {
+                video.play();
+            } else {
+                video.pause();
+            }
+
+    }
+
+}
+window.addEventListener('scroll', checkScroll, false);
+window.addEventListener('resize', checkScroll, false);
+</script>
+~~~

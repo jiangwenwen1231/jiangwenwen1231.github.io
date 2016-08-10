@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Wenwen Jiang</title>
+</head>
+<body>
+<div id="layout-content">
+<h1></h1>
+<h2>Wenwen Jiang</h2>
+<table class="imgtable"><tr><td>
+<img src="images/myface.jpg" alt="myface" width="220px" height="220px" />&nbsp;</td>
+<td align="left"><p>Hi! I am a graduating fifth-year graduate student working
+with Professor <a href="http://www.eecs.berkeley.edu/~mlustig">Michael (Miki)
+Lustig</a>.</p>
+<p>My interest lie in computational imaging, computer vision and medical imaging.</p>
+<p>Here is my email: <a href="mailto:jiangwenwen1231@berkeley.edu">jiangwenwen1231@berkeley.edu</a>.
+And here is my <a href="WenwenJiang-resume.pdf">resume</a>.</p>
+</td></tr></table>
+<h2>Projects</h2>
+<h4>Motion Robust High Resolution Free-breathing Pulmonary MRI</h4>
+<p>
+<figure align="center">
+<video width="50%" loop >
+<source src="videos/video4.mp4" type="video/mp4">
+<object data="videos/video4.mp4" >
+<embed width="50%" src="videos/video4.mp4">
+</object>
+</video>
+<figcaption> High spatial resolution Pulmonary MRI </figcaption>
+</figure>
+</p>
+<h4>Computational Photography</h4>
+<p>
+<table style="width:100%">
+<tr>
+<td width="25%">
+<figure>
+<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj1/cs194-kj/">
+<img src="images/cp1.png" alt="cp1" width="100%">
+<figcaption>Recolor grayscale images</figcaption>
+</a>
+</figure>
+</td>
+<td width="25%">
+<figure>
+<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj2/cs194-ki/Li_Kun_proj2/">
+<img src="images/cp2.jpg" alt="cp2" width="100%">
+<figcaption>Building a Pinhole Camera</figcaption>
+</a>
+</figure>
+</td>
+<td width="25%">
+<figure>
+<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj3/cs194-mx/Wenwen_Jiang_Proj3/Wenwen_Jiang_proj3.html">
+<img src="images/cp3.png" alt="cp3" width="100%">
+<figcaption>Image blending</figcaption>
+</a>
+</figure>
+</td>
+<td width="25%">
+<figure>
+<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj4/cs194-kj/Wenwen_Jiang_Proj4.htm">
+<img src="images/cp4.png" alt="cp4" width="100%">
+<figcaption>Seam Carving</figcaption>
+</a>
+</figure>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<figure>
+<a href="[https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj5/cs194-kj/WenwenJiang_project5.htm">
+<img src="images/cp5.gif" alt="cp5" width="100%">
+<figcaption>Face Morphing</figcaption>
+</a>
+</figure>
+</td>
+<td width="25%">
+<figure>
+<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj6/cs194-kj/WenwenJiang_Project%206.htm">
+<img src="images/cp6.png" alt="cp6" width="100%">
+<figcaption>Lightfield Depth Refocusing</figcaption>
+</a>
+</figure>
+</td>
+<td width="25%">
+<figure>
+<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj7B/cs194-kj/WenwenJiang_Project7B.htm">
+<img src="images/cp7.png" alt="cp7" width="100%">
+<figcaption>Auto Panaroma Stitching</figcaption>
+</a>
+</figure>
+</td>
+<td width="25%">
+<figure>
+<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/projFinalUndergrad/cs194-kj/Final_project_WenwenJiang.htm">
+<img src="images/cp8.png" alt="cp8" width="100%">
+<figcaption>Tour into the Picture and Fake Miniatures</figcaption>
+</a>
+</figure>
+</td>
+</tr>
+</table>
+</p>
+<script>
+var videos = document.getElementsByTagName("video"),
+fraction = 0.9;
+function checkScroll() {
+
+    for(var i = 0; i < videos.length; i++) {
+
+        var video = videos[i];
+
+        var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
+            b = y + h, //bottom
+            visibleX, visibleY, visible;
+
+            visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+            visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+
+            visible = visibleX * visibleY / (w * h);
+
+            if (visible > fraction) {
+                video.play();
+            } else {
+                video.pause();
+            }
+
+    }
+
+}
+window.addEventListener('scroll', checkScroll, false);
+window.addEventListener('resize', checkScroll, false);
+</script>
+<div id="footer">
+<div id="footer-text">
+Page generated 2016-08-10 16:02:14 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-68201918-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
