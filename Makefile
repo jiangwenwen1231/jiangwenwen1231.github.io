@@ -8,6 +8,7 @@ docs : $(PHDOCS)
 
 html/%.html : %.jemdoc MENU
 	python2.7 jemdoc.py -c myconf.conf -o $@ $<
+	mv $@ .
 
 .PHONY : clean
 clean :
