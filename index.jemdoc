@@ -34,6 +34,18 @@ And here is my [WenwenJiang-resume.pdf resume].
 </figure>
 }}
 
+==== Simultaneous Estimation of Auto-calibration Data and Gradient Delays in non-Cartesian Parallel MRI using Low-rank Constraints{{
+{{
+<figure align="center">
+	<video width="50%" loop >
+           <figure>
+		 <img src="images/proj2.png" alt="proj2" width="100%"
+		        </video>
+		      	<figcaption> Estimation of Gradient Delays for non-Cartesian Parallel MRI using Low-rank Constraints </figcaption>
+			      </figure>
+			      }}
+==== Concentric Rings for Hyperpolarized C-13 MR Spectroscopic Imaging
+
 ==== Computational Photography
 
 {{
