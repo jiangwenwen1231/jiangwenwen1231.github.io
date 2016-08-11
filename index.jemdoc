@@ -33,19 +33,47 @@ And here is my [WenwenJiang-resume.pdf resume].
   <figcaption> High spatial resolution Pulmonary MRI </figcaption>
 </figure>
 }}
-
-==== Simultaneous Estimation of Auto-calibration Data and Gradient Delays in non-Cartesian Parallel MRI using Low-rank Constraints{{
+{{
+<table style="width:100%">
+  <tr>
+      <td width="50%">
+            <figure>
+		      <source src="videos/video3.mp4" type="video/mp4">
+		             <object data="videos/video3.mp4" >
+			             <embed width="100%" src="videos/video3.mp4">
+				           </object>
+			  </video>
+			 <figcaption> Lower spatial resolution Real-time 3D  MRI </figcaption>
+		</figure>		               
+      </td>
+	 <td width="50%">
+	       <figure>
+	               <source src="videos/video1.mp4" type="video/mp4">
+		               <object data="videos/video1.mp4" >
+			       	        <embed width="100%" src="videos/video1.mp4">
+				 </object>
+			</video>
+			 <figcaption> Lower spatial resolution Real-time 3D  MRI with Optical Flow Estimation </figcaption>							 
+		 </figure>
+	</td>
+  </tr>
+</table>
+}}
+==== Simultaneous Estimation of Auto-calibration Data and Gradient Delays in non-Cartesian Parallel MRI using Low-rank Constraints
 {{
 <figure align="center">
-	<video width="50%" loop >
-           <figure>
-		 <img src="images/proj2.png" alt="proj2" width="100%"
-		        </video>
-		      	<figcaption> Estimation of Gradient Delays for non-Cartesian Parallel MRI using Low-rank Constraints </figcaption>
-			      </figure>
-			      }}
+			<img src="images/proj2.png" alt="proj2" width="80%">
+			      <figcaption> Auto-calibration Delay Estimation using Low-rank Constraints for non-Cartesian MRI  </figcaption>
+ </figure>
+ }}
 ==== Concentric Rings for Hyperpolarized C-13 MR Spectroscopic Imaging
 
+{{
+<figure align="center">
+             <img src="images/proj3.jpg" alt="proj3" width="80%">
+	         <figcaption> Concentric Rings for Hyperpolarized C-13 MR Spectroscopic Imaging on A Healthy Rat  </figcaption>
+						       </figure>
+}}
 ==== Computational Photography
 
 {{
