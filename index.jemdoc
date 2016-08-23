@@ -21,7 +21,7 @@ And here is my [WenwenJiang-resume.pdf resume].
 
 == Projects
 
-==== Motion Robust High Resolution Free-breathing Pulmonary MRI
+==== Motion Robust High Resolution Free-breathing Pulmonary MRI: [http://cds.ismrm.org/protected/16MPresentations/abstracts/1139.html Link] [http://cds.ismrm.org/protected/16MPresentations/videos/1139/ Talk]
 {{
 <figure align="center">
   <video width="50%" loop >
@@ -61,15 +61,14 @@ And here is my [WenwenJiang-resume.pdf resume].
   </tr>
 </table>
 }}
-==== Simultaneous Estimation of Auto-calibration Data and Gradient Delays in non-Cartesian Parallel MRI using Low-rank Constraints
+==== Simultaneous Estimation of Auto-calibration Data and Gradient Delays in non-Cartesian Parallel MRI using Low-rank Constraints: [http://cds.ismrm.org/protected/16MPresentations/abstracts/0939.html Link] [http://cds.ismrm.org/protected/16MPresentations/videos/0939/ Talk]
 {{
 <figure align="center">
 			<img src="images/proj2.png" alt="proj2" width="80%">
 			      <figcaption> Auto-calibration Delay Estimation using Low-rank Constraints for non-Cartesian MRI  </figcaption>
  </figure>
  }}
-==== Concentric Rings for Hyperpolarized C-13 MR Spectroscopic Imaging
-
+==== Concentric Rings for Hyperpolarized C-13 MR Spectroscopic Imaging: [http://onlinelibrary.wiley.com/doi/10.1002/mrm.25577/full Link] [http://cds.ismrm.org/protected/15MPresentations/0094/ Talk]
 {{
 <figure align="center">
              <img src="images/proj3.jpg" alt="proj3" width="80%">
