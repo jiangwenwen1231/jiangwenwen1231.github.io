@@ -100,7 +100,7 @@ And here is my [WenwenJiang-resume.pdf resume].
       <figure>
 	<a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj3/cs194-mx/Wenwen_Jiang_Proj3/Wenwen_Jiang_proj3.html">
 	  <img src="images/cp3.png" alt="cp3" width="100%">
-	  <figcaption>Image blending</figcaption>
+	  <figcaption>Image Pyramid blending</figcaption>
 	</a>
       </figure>
     </td>
